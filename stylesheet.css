@@ -1,0 +1,166 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear:left;
+}
+
+.container {
+  max-width:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 600px 0 100px 0;
+  background-image: url(https://media.discordapp.net/attachments/817679238110117912/817682643227377674/c0541dbe6c45d6d31f22fd1ce6c532406373e9622fc3bfa1ee43e507c2f3b271.02.jpg);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.8;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #333333;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.photo-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.photo {
+  float: left;
+  width: 25%;
+}
+
+.photo-icon {
+  position: relative;
+  padding:0 20px 0 0;
+}
+
+.photo-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.photo-icon img {
+  width:90%;
+  height:100%;
+}
+
+.txt-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.message {
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.btn-wrapper {
+  margin: 70px 0;
+}
+
+.facebook {
+  background-color: #136fff;
+  margin-right: 30px;
+}
+
+.twitter {
+  background-color: #75a9ff;
+  margin-right: 30px;
+}
+
+.instagram {
+  background-color:#ff773e;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+}
